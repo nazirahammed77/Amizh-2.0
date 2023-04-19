@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Yogaa Welness HTML5 Template | Homepage</title>
+<title>Amizh  | Homepage</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
@@ -13,6 +13,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link href="css/responsive.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script>
+$(function () {
+    $("#header").load("/partials/header.html");
+    $("#footer").load("/partials/footer.html");
+    $("#app").load("/partials/app.html");
+});
+</script>
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
@@ -62,10 +71,10 @@
         
         <!-- Main Box -->
     	<div class="main-box">
-        	<div class="auto-container clearfix">
-            	<!--Logo Box-->
+            <div class="auto-container clearfix">
+                <!--Logo Box-->
                 <div class="logo-box">
-                	<div class="logo"><a href="index.html"><img src="images/logo.png"width=100 alt=""></a></div>
+                    <div class="logo"><a href="index.html"><img src="images/logo.png"width=100 alt=""></a></div>
                 </div>
                 
                 <!--Nav Outer-->
@@ -89,10 +98,10 @@
                                 
                             </ul>
                             <ul class="navigation right-nav clearfix">
-                                <li class="dropdown"><a href="#">App</a>
+                                <li class=""><a href="#">App</a>
                                     
                                 </li>
-                                <li class="dropdown"><a href="#">Reviews</a>
+                                <li class=""><a href="#">Reviews</a>
                                    
                                 </li>
                                 
@@ -113,9 +122,6 @@
     
     </header>
     <!--End Main Header -->
-    
-    
-    <!-- Hidden Navigation Bar -->
     <section class="hidden-bar right-align">
         
         <div class="hidden-bar-closer">
@@ -136,43 +142,13 @@
                     <li class="current"><a href="index.html">Home</a></li>
                     <li><a href="about-us.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li class="dropdown"><a href="#">Gallery</a>
-                        <ul class="submenu">
-                            <li><a href="gallery-three-column.html">Gallery Three Column</a></li>
-                            <li><a href="gallery-four-column.html">Gallery Four Column</a></li>
-                            <li><a href="gallery-masonry.html">Gallery Masonry</a></li>
-                            <li><a href="gallery-single.html">Gallery Single</a></li>
-                        </ul>
+                    <li class=""><a href="#">App</a>
+                        
                     </li>
-                    <li class="dropdown"><a href="#">Pages</a>
-                        <ul class="submenu">
-                            <li><a href="error-page.html">404 Page</a></li>
-                            <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                            <li class="dropdown"><a href="#">Third Level Menu</a>
-                                <ul class="submenu">
-                                    <li><a href="error-page.html">404 Page</a></li>
-                                    <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <li class=""><a href="#">Reviews</a>
+                        
                     </li>
-                    <li class="dropdown"><a href="#">Shop</a>
-                        <ul class="submenu">
-                            <li><a href="shop-leftbar.html">Shop Left Sidebar</a></li>
-                            <li><a href="shop-rightbar.html">Shop Right Sidebar</a></li>
-                            <li><a href="shop-single.html">Shop Single</a></li>
-                            <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">Blog</a>
-                        <ul class="submenu">
-                            <li><a href="blog.html">Blog Classic</a></li>
-                            <li><a href="blog-list.html">Blog LIst View</a></li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
-                        </ul>
-                    </li>
+                   
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div><!-- /.Side-menu -->
@@ -187,7 +163,10 @@
             </div>
         
         </div><!-- / Hidden Bar Wrapper -->
-    </section><!-- / Hidden Bar -->
+    </section>
+    
+    <!-- Hidden Navigation Bar -->
+    <!-- / Hidden Bar -->
     
     
     <!--Main Slider-->
@@ -1067,20 +1046,20 @@
     
     <!--Main Footer-->
     <footer class="main-footer">
-    	<!--Upper-->
+        <!--Upper-->
         <div class="footer-upper">
-        	<div class="auto-container">
+            <div class="auto-container">
                 <div class="upper-container">
                     <!--Logo Image-->
-                    <div class="logo-image"><a href="index.html"><img src="images/logo-2.png" alt=""></a></div>
+                    <div class="logo-image"><a href="index.html"><img src="images/logo.png" width="100" alt=""></a></div>
                     
                     <div class="row clearfix">
-                    	<!--Footer Widget-->
+                        <!--Footer Widget-->
                         <div class="footer-column col-md-2 col-sm-6 col-xs-12">
-                        	<div class="footer-widget work-hours">
-                            	<h2>Working Hours</h2>
+                            <div class="footer-widget work-hours">
+                                <h2>Working Hours</h2>
                                 <ul>
-                                	<li>Mon-Fri : 7am to 7pm</li>
+                                    <li>Mon-Fri : 7am to 7pm</li>
                                     <li>Saturday : 7am to 4pm</li>
                                     <li>Sunday : Closed</li>
                                 </ul>
@@ -1088,12 +1067,14 @@
                         </div>
                         <!--Footer Widget-->
                         <div class="footer-column col-md-3 col-sm-6 col-xs-12">
-                        	<div class="footer-widget links-widget">
-                            	<h2>Our Services</h2>
+                            <div class="footer-widget links-widget">
+                                <h2>Quick Links</h2>
                                 <ul>
-                                	<li><a href="#">About</a></li>
-                                    <li><a href="#">Pages</a></li>
-                                    <li><a href="#">Classes</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">App</a></li>
+                                    <li><a href="#">Reviews</a></li>
                                     <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
@@ -1101,30 +1082,17 @@
                         
                         <!--Footer Widget-->
                         <div class="footer-column col-md-3 col-sm-6 col-xs-12">
-                        	<div class="footer-widget social-links-widget">
-                            	<h2>Follow us on</h2>
+                            <div class="footer-widget social-links-widget">
+                                <h2>Follow us on</h2>
                                 <ul>
-                                	<li><a href="#"><span class="icon fa fa-facebook-f"></span> Facebook</a></li>
+                                    <li><a href="#"><span class="icon fa fa-facebook-f"></span> Facebook</a></li>
                                     <li><a href="#"><span class="icon fa fa-twitter"></span> Twitter</a></li>
                                     <li><a href="#"><span class="icon fa fa-google-plus"></span> Google Plus</a></li>
                                 </ul>
                             </div>
                         </div>
                         
-                        <!--Footer Widget-->
-                        <div class="footer-column col-md-4 col-sm-6 col-xs-12">
-                        	<div class="footer-widget newsletter-widget">
-                            	<h2>Subscribe</h2>
-                                <div class="newsletter-form">
-                                	<form method="post" action="http://html.tonatheme.com/2020/yogaa/contact.html">
-                                    	<div class="form-group">
-                                        	<input type="email" name="useremail" value="" placeholder="E-Mail" required>
-                                            <button type="submit" class="theme-btn"><span class="flaticon-e-mail-envelope"></span></button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+                      
                         
                     </div>
                     
@@ -1134,8 +1102,8 @@
         
         <!--Upper-->
         <div class="footer-bottom">
-        	<div class="auto-container">
-            	<div class="copyright">&copy; COPYRIGHTS 2016 YOGAA. ALL RIGHTS RESERVED</div>
+            <div class="auto-container">
+                <div class="copyright">&copy; COPYRIGHTS 2023 AMIZH Birth&Yoga. ALL RIGHTS RESERVED</div>
             </div>
         </div>
         
