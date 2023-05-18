@@ -22,6 +22,7 @@
       ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
     ><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+   
   </head>
 
   <body>
@@ -141,7 +142,8 @@
 
       <!-- Hidden Navigation Bar -->
       <!-- / Hidden Bar -->
-
+<!-- Calendly inline widget begin -->
+<!-- Calendly inline widget end -->
       <!--Main Slider-->
       <section class="main-slider default-style style-one">
         <div class="tp-banner-container">
@@ -428,9 +430,8 @@
                     </div>
 
                     <div class="padd-top-20 text-center">
-                      <button type="submit" class="theme-btn">
-                        MAKE AN APPOINTMENT
-                      </button>
+                      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nextonesolutions/amizhl'});return false;">Schedule time with me</a>
+
                     </div>
                   </form>
                 </div>
@@ -607,6 +608,7 @@
           </div>
         </div>
       </section>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/nextonesolutions/amizhl" style="min-width:320px;height:700px;"></div>
 
       <!--Nature Of Yogaa-->
       <section class="nature-of-yoga">
@@ -1291,5 +1293,7 @@
     <script src="js/map-script.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
   </body>
 </html>
