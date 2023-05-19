@@ -1,0 +1,123 @@
+.containeruni {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.containeruni .icon {
+  position: relative;
+  background: #fff;
+  color: #222;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  font-size: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 10px #0002;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  user-select: none;
+}
+
+.containeruni .title {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 13px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px #0002;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.containeruni .title::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.containeruni .icon:hover .title {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.containeruni .icon:hover span,
+.containeruni .icon:hover .title {
+  text-shadow: 0 -1px 0 #0002;
+}
+
+.containeruni .facebook:hover,
+.containeruni .facebook:hover .title,
+.containeruni .facebook:hover .title::before {
+  background: #3b5999;
+  color: #fff;
+}
+
+.containeruni .twitter:hover,
+.containeruni .twitter:hover .title,
+.containeruni .twitter:hover .title::before {
+  background: #2b91ff;
+  color: #fff;
+}
+
+.containeruni .instagram:hover,
+.containeruni .instagram:hover .title,
+.containeruni .instagram:hover .title::before {
+  background: #f9006c;
+  color: #fff;
+}
+
+.containeruni .whatsapp:hover,
+.containeruni .whatsapp:hover .title,
+.containeruni .whatsapp:hover .title::before {
+  background: #008902;
+  color: #fff;
+}
+
+.containeruni .youtube:hover,
+.containeruni .youtube:hover .title,
+.containeruni .youtube:hover .title::before {
+  background: #bc0000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 911px) and (min-width: 766px) {
+  .containeruni .icon {
+    position: relative;
+    background: #fff;
+    color: #222;
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 10px #0002;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    user-select: none;
+  }
+}
