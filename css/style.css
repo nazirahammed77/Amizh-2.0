@@ -720,12 +720,13 @@ li {
   -o-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   transition: all 300ms ease;
+  margin-bottom: 120px;
 
 }
 
 .main-header.fixed-header .main-box {
   position: fixed; 
-  padding: 20px 20px;
+  height:90px;
   background: #edeee8;
   border-bottom: 1px solid #d0d0d0;
 }
@@ -737,7 +738,7 @@ li {
  
   margin-left: -75px;
   z-index: 10;
-  bottom: 13px;
+  top:5px;
   
 }
 
