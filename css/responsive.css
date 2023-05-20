@@ -87,6 +87,9 @@
 		position:relative;
 		text-align:center;
 		margin:0 auto 80px;	
+		display: flex;
+		
+
 	}
 	
 	.featured-item .inner-box h3{
