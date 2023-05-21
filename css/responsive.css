@@ -13,7 +13,7 @@
 	
 	.main-header{
 		margin:0px !important;
-		background:#edeee8;	
+		
 	}
 	
 	.main-header .social-links-one{
@@ -128,13 +128,14 @@
 	
 	.main-header .main-box .logo-box {
 		position:relative;
-		left:0px;
-		top:0px;
+		left:3px;
+		top:5px;
 		right:0px;
 		bottom:0px;
 		width:200px;
 		margin:0px;
 		text-align:left;
+		
 	}
 	
 	.main-header .nav-outer,
@@ -144,8 +145,12 @@
 	
 	.main-header .nav-toggler{
 		display:block;
+		position:absolute;
+		top:40px;
 	}
 	
+	
+
 	.why-choose-yoga .features-outer{
 		background-image:none !important;
 		padding-bottom:30px;	
@@ -218,6 +223,7 @@
 		width:100%;
 		margin:0px;
 	}
+	
 	
 	.default-portfolio-item.masonry-item.big-item,
 	.default-portfolio-item.masonry-item.small-item{
