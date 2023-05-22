@@ -721,21 +721,21 @@ li {
   -moz-transition: all 300ms ease;
   transition: all 300ms ease;
   margin-bottom: 120px;
-  
+
 
 }
 
 .main-header.fixed-header .main-box {
-  position: fixed; 
-  height:90px;
+  position: fixed;
+  height: 90px;
   background: #edeee8;
   border-bottom: 1px solid #d0d0d0;
 }
 
 
-.main-header.fixed-header .main-box .logo-box{
-position:relative;
-top:4px;
+.main-header.fixed-header .main-box .logo-box {
+  position: relative;
+  top: 4px;
 
 }
 
@@ -745,8 +745,8 @@ top:4px;
   text-align: center;
   margin-left: -75px;
   z-index: 10;
- 
-  
+
+
 }
 
 .main-header .nav-toggler {
@@ -793,7 +793,7 @@ top:4px;
 }
 
 .main-menu .right-nav {
- 
+
   float: right;
 }
 
@@ -1133,13 +1133,13 @@ top:4px;
   padding: 30px 0px;
   background: #223555;
   position: relative;
- 
+
 }
 
 .hidden-bar .logo img {
   display: inline-block;
   max-width: 100%;
- 
+
 }
 
 .hidden-bar .side-menu {
@@ -2787,31 +2787,40 @@ top:4px;
   padding: 80px 0px 40px;
 }
 
-.foot{
-  display:flex;justify-content: center;align-items: center;flex-direction: row;
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-.footclass{
-  display:flex;flex-direction: column;align-items: center;
+.footclass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footmain{
+.footmain {
 
-  display:flex;justify-content:space-evenly ;background-color: black;padding-top:50px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding-top: 50px;
   padding-bottom: 30px;
 
 }
-.footimage{
+
+.footimage {
   position: relative;
-  top:30px;
+  top: 30px;
 }
 
 
 .main-footer .upper-container {
   position: relative;
   padding-left: 170px;
-  border:2px solid red;
-   
+  border: 2px solid red;
+
 }
 
 .main-footer .footer-widget {
@@ -2819,31 +2828,46 @@ top:4px;
   margin-bottom: 30px;
 }
 
-#right_nav{
-  width:auto ;position: relative;left:60px ;bottom:30px;
+#right_nav {
+  width: auto;
+  position: relative;
+  left: 60px;
+  bottom: 30px;
   border: 2px solid red;
 }
 
-@media only screen and (max-width: 1300px) and (min-width:1024px){
+@media only screen and (max-width: 1300px) and (min-width:1024px) {
   #right_nav {
-    width:auto ;position: relative;left:60px ;bottom:30px;margin-left:40px
+    width: auto;
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+    margin-left: 40px
   }
 }
 
 @media only screen and (max-width: 780px) {
   /* Your CSS rules for mobile devices go here */
- 
-.footclass{
-  display:flex;flex-direction: column;align-items: center;
-  padding-top: 10px;
-}
 
-.footmain{
+  .footclass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
 
-  display:flex;justify-content:space-evenly;gap:40px;background-color: black;padding-top:20px;flex-direction:column;align-items: center;
-  padding-bottom: 30px;
+  .footmain {
 
-}
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    background-color: black;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+
+  }
 }
 
 
@@ -2994,7 +3018,7 @@ top:4px;
 
   .auto-container .upper-container .row {
 
-    margin-left:   130px;
+    margin-left: 130px;
 
   }
 
@@ -3022,28 +3046,31 @@ top:4px;
 
 }
 
-@media screen and (max-width:700px) and (min-width:100px)  {
+@media screen and (max-width:700px) and (min-width:100px) {
   .auto-container .upper-container .row {
 
     display: flex;
     justify-content: center;
     flex-direction: column;
- 
+
   }
 
-  .foot{
-    display:flex;justify-content: center;align-items: center;flex-direction: column;
-   
+  .foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
   }
-  
+
   .main-footer .upper-container {
-      position: relative;
-      padding-left: 170px;
-      border:2px solid red;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      
+    position: relative;
+    padding-left: 170px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
   }
 
 }
@@ -3533,7 +3560,10 @@ body.popup-visible {
 
 .sidebar-page-container {
   position: relative;
-  padding: 100px 0px 70px;
+  padding-top: 100px;
+  padding-left: 0;
+  padding-right: 0;
+
 }
 
 .sidebar-page-container .sidebar,
