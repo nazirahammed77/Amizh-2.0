@@ -1259,37 +1259,13 @@ li {
   background: #ffffff !important;
 }
 
-.main-slider .tparrows.preview3 {
-  background: none !important;
-  width: 40px;
-}
 
-.main-slider .tparrows.preview3::after {
-  top: 20px;
-  background: rgba(190, 190, 190, 0.4);
-  color: #ffffff;
-  font-size: 18px;
-  height: 44px;
-  line-height: 44px;
-  width: 44px;
-}
 
-.main-slider .tparrows.preview3.tp-leftarrow {
-  left: 20px !important;
-}
 
-.main-slider .tparrows.preview3.tp-rightarrow {
-  right: 25px !important;
-}
 
-.main-slider .tparrows.preview3:hover::after {
-  background: rgba(0, 0, 0, 0.4) !important;
-}
 
-.main-slider .tparrows.preview3 .tp-arr-iwrapper {
-  visibility: hidden;
-  opacity: 0;
-}
+
+
 
 .main-slider .tp-bannertimer {
   display: none !important;
