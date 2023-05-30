@@ -68,7 +68,7 @@ Main Components
     overflow: hidden;
 }
 
-.cd-horizontal-timeline .events-wrapper,
+.cd-horizontal-timeline .events-wrapper::after,
 .cd-horizontal-timeline .events-wrapper::before {
     /* these are used to create a shadow effect at the sides of the timeline */
     content: '';
