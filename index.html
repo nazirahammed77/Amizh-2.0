@@ -20,9 +20,24 @@
   <style>
     .left_icons {
       height: 745px;
-      z-index: 1;
+      z-index: 100;
       position: relative;
 
+    }
+
+    @media screen and (max-width:1010px){
+      .list-unstyled
+    {
+       display: none;
+
+    }
+    
+    .left_icons {
+      height: 0px;
+      z-index: 100;
+      position: relative;
+
+    }
     }
 
     .left_icons ul {
@@ -32,7 +47,7 @@
 
     .left_icons ul li {
       display: block;
-      padding: 10px 15px 8px 10px;
+      padding: 10px 15px 8px 10px;  
     }
 
     .left_icons ul li i {
@@ -82,6 +97,7 @@
     .m-0 {
       margin: 0 !important;
     }
+    
   </style>
   <!--[if lt IE 9
       ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
@@ -107,20 +123,20 @@
     <div class="left_icons float-left d-table" data-aos="fade-down">
       <div class="icon_content d-table-cell align-middle">
         <ul class="list-unstyled p-0 m-0">
-          <li>
-            <a href="https://instagram.com/amizhbirthandyoga?igshid=MTA2NDdkNWE="><i class="fa fa-instagram"
+          <li class="icons" >
+            <a href="https://instagram.com/amizhbirthandyoga?igshid=MTA2NDdkNWE="><i class="fab fa-instagram"
                 aria-hidden="true"></i></a>
           </li>
-          <li>
-            <a href="https://www.facebook.com/amizh.childbirthclasses.lactationconsultations"><i class="fa fa-facebook"
+          <li class="icons">
+            <a href="https://www.facebook.com/amizh.childbirthclasses.lactationconsultations"><i class="fab fa-facebook"
                 aria-hidden="true"></i></a>
           </li>
           <li class="icons"><a target="_blank" href="https://www.linkedin.com/company/amizh-birth-yoga/"><i
-                class="fa fa-linkedin mr-0" aria-hidden="true"></i></a></li>
+                class="fab fa-linkedin " aria-hidden="true"></i></a></li>
 
 
-          <li>
-            <a href=" https://www.youtube.com/channel/UCwO7YAyXwn0JFiVXjDyb2AA"><i class="fa fa-youtube"
+          <li class="icons">
+            <a href=" https://www.youtube.com/channel/UCwO7YAyXwn0JFiVXjDyb2AA"><i class="fab fa-youtube"
                 aria-hidden="true"></i></a>
           </li>
 
@@ -131,29 +147,6 @@
 
 
 
-    <div class="left_icons float-left d-table" >
-      <div class="icon_content d-table-cell align-middle">
-          <ul class="list-unstyled p-0 m-0">
-              <li>
-                  <a href="https://instagram.com/amizhbirthandyoga?igshid=MTA2NDdkNWE="><i
-                          class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                  <a href="https://www.facebook.com/amizh.childbirthclasses.lactationconsultations"><i
-                          class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-              </li>
-              <li class="icons"><a target="_blank"href="https://www.linkedin.com/company/amizh-birth-yoga/"><i class="fa-brands fa-linkedin-in mr-0" aria-hidden="true"></i></a></li>
-
-             
-              <li>
-                  <a href=" https://www.youtube.com/channel/UCwO7YAyXwn0JFiVXjDyb2AA"><i
-                          class="fa-brands fa-youtube" aria-hidden="true"></i></a>
-              </li>
-             
-          </ul>
-      </div>
-  </div>
-
     <section class="main-slider default-style style-one">
 
 
@@ -161,8 +154,7 @@
 
         <ul>
           <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/1.jpg"
-            data-saveperformance="off" data-title="Awesome
-                                Title Here">
+            data-saveperformance="off" >
             <img src="images/main-slider/1.jpg" alt="" data-bgposition="center bottom" data-bgfit="cover"
               data-bgrepeat="no-repeat" />
 
@@ -182,8 +174,7 @@
           </li>
 
           <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/2.jpg"
-            data-saveperformance="off" data-title="Awesome
-                                Title Here">
+            data-saveperformance="off" >
             <img src="images/main-slider/2.jpg" alt="" data-bgposition="center bottom" data-bgfit="cover"
               data-bgrepeat="no-repeat" />
 
@@ -204,17 +195,16 @@
           </li>
 
           <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/3.jpg"
-            data-saveperformance="off" data-title="Awesome
-                                Title Here">
-            <!-- <img src="images/main-slider/3.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
+            data-saveperformance="off">
+            <img src="images/main-slider/3.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
               data-bgrepeat="no-repeat" />
 
             <div class="tp-caption sfb sft tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
               data-voffset="0" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none"
               data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3" data-endspeed="1200"
-              data-endeasing="Power4.easeIn"> -->
-              <!--Content Box-->
-              <!-- <div class="content-box">
+              data-endeasing="Power4.easeIn"> 
+              Content Box
+              <div class="content-box">
                 <h3 class="dashed-text">
                   - Hi beautiful soul &amp; this is Dr.Krishnapriya -
                 </h3>
@@ -223,7 +213,7 @@
               </div>
             </div>
           </li>
-        </ul> -->
+        </ul>
 
         <div class="tp-bannertimer"></div>
       </div>
