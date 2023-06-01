@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.limage{
+    width:70px;
+    height:70px
+}
+
+
+
+
+.h{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.h .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.h ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.h ul li{
+  margin: 0 5px;
+}
+.h ul li a{
+  color: rgb(169, 119, 174);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.h ul li a.active,
+.h ul li a:hover{
+  color:rgb(111, 6, 119);
+
+}
+.h .menu-btn i{
+  color: rgb(111, 6, 119);
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  .h{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  .h .menu-btn i{
+    display: block;
+    z-index: 9999;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  .h ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  .h ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  .h ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  .h ul li a.active,
+  .h ul li a:hover{
+    background: none;
+    color: rgb(111, 6, 119);
+  }
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div{
+  font-size: 40px;
+  font-weight: 700;
+}

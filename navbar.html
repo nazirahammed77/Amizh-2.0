@@ -1,149 +1,34 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Navbar</title>
-    <!-- Add any CSS stylesheets or JavaScript files that you need -->
-    <link rel="stylesheet" href="style.css">
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/revolution-slider.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
-    <link rel="icon" href="images/logo.png" type="image/x-icon" />
-    <link href="css/responsive.css" rel="stylesheet" />
-  <link href="css/iconcss.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-   
-</head>
-<body>
-    <header class="main-header">
-
-
-        <!-- SOCIAL ICONS -->
-  
-  
-        <!-- Main Box -->
-        <div class="main-box">
-          <div class="auto-container clearfix">
-            <!--Logo Box-->
-            <div class="logo-box" style="position:absolute;  bottom:45px ;q`">
-              <div class="logo">
-                <a href="index.html"><img src="images/logo.png" width="80" alt="" /></a>
-              </div>
-            </div>
-  
-            <!--Nav Outer-->
-            <div class="nav-outer clearfix">
-              <!-- Main Menu -->
-              <nav class="main-menu">
-                <div class="navbar-header">
-                  <!-- Toggle Button -->
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" >
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
-  
-                <div style="width:auto">
-                  <ul class="navigation right-nav " style="width:auto ;position: relative;left:60px ;bottom:30px;margin-right: 80px;">
-                    <li class ="current"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                  
-                    <li ><a href="app.html">App</a></li>
-                    <li ><a href="reviews.html">Reviews</a></li>
-  
-                    <li><a href="contact.html">Contact Us</a></li>
-                  </ul>
-                </div>
-                
-              </nav>
-              <!-- Main Menu End-->
-            </div>
-            <!--Nav Outer End-->
-  
-            <!-- Hidden Nav Toggler -->
-            <div class="nav-toggler" >
-              <button class="hidden-bar-opener"  >
-                <span class="icon fa fa-bars"></span>
-              </button>
-            </div>
-
-            <!-- / Hidden Nav Toggler -->
-          </div>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Responsive Navigation Menu</title>
+      <link href="css/nav.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <div class="h">
+        <div class="l">
+          <a href="index.html"><img class="limage" src="images/logo.png" width="80" alt="" /></a>
         </div>
-      </header>
-    
-        <!-- Your section content goes here -->
-        
-      <!--End Main Header -->
-      <section class="hidden-bar right-align" >
-        <div class="hidden-bar-closer">
-          <button class="btn"><i class="fa fa-close"></i></button>
-        </div>
-        <!-- Hidden Bar Wrapper -->
-        <div class="hidden-bar-wrapper">
-          <!-- .logo -->
-          <div class="logo text-center">
-            <a href="index.html"><img src="images/logo-2.png" alt="" /></a>
-          </div>
-          <!-- /.logo -->
-  
-          <!-- .Side-menu -->
-          <div class="side-menu">
-            <!-- .navigation -->
-            <ul class="navigation">
-              <li class="current"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li class=""><a href="app.html">App</a></li>
-              <li class=""><a href="#">Reviews</a></li>
-  
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
-          <!-- /.Side-menu -->
-  
-          <div class="social-icons">
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/amizh.childbirthclasses.lactationconsultations"><i
-                    class="fa fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="https://instagram.com/amizhbirthandyoga?igshid=MTA2NDdkNWE="><i class="fa fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href=" https://www.youtube.com/channel/UCwO7YAyXwn0JFiVXjDyb2AA"><i class="fa fa-youtube"></i></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/company/amizh-birth-yoga/"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- / Hidden Bar Wrapper -->
-      </section>
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">App</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </div>
+     
+      </div>
 
-      <script src="js/activelink.js"></script>
-      <script src="js/navfoot.js"></script>
-      <script src="js/jquery.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/revolution.min.js"></script>
-      <script src="js/jquery.fancybox.pack.js"></script>
-      <script src="js/jquery.fancybox-media.js"></script>
-      <script src="js/isotope.js"></script>
-      <script src="js/owl.js"></script>
-      <!-- Master Slider -->
-      <script src="js/masterslider/jquery.easing.min.js"></script>
-      <script src="js/masterslider/masterslider.min.js"></script>
-      <!--End Master Slider -->
-      <script src="js/map-script.js"></script>
-      <script src="js/wow.js"></script>
-      <script src="js/script.js"></script>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    
       
-</body>
+   </body>
 </html>
