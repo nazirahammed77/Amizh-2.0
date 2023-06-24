@@ -13,7 +13,7 @@
   transition: all 200ms ease-in;
 }
 .timestamp {
-  width: 100%; // for flexible width
+  width: 100%; 
   margin-bottom: 20px;
   padding: 0px 40px;
   display: flex;
@@ -45,7 +45,7 @@
   border: 4px solid #3e70ff;
   position: absolute;
   top: -15px;
-  left: calc(50% - 12px); // align circle to center
+  left: calc(50% - 12px);
   transition: all 200ms ease-in;
 }
 .swiper-control {

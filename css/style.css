@@ -1220,16 +1220,16 @@ li {
   position: relative;
   width: 620px;
   padding: 40px 20px;
-  background: rgba(34, 34, 34, 0.3);
-  color: #ffffff;
+  /* background: rgba(235, 218, 218, 0.3); */
+  color: #fff;
   text-align: center;
-  outline: 1px solid #222222;
-  outline-offset: 10px;
+  /* outline: 1px solid #222222;
+  outline-offset: 10px; */
 }
 
 .main-slider .content-box h3 {
   font-size: 44px;
-  color: #f6f6f6;
+  color: #ffffff;
   font-weight: 700;
   font-family: "Tangerine", cursive;
 }
