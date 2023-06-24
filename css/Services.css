@@ -59,12 +59,15 @@
     background-color: #ffffff;
     color: #2c7bfe;
   }
+ 
   .card-main:hover h3 {
     color: #ffffff;
   }
   .card-main:hover p {
     color: #f0f0f0;
   }
+
+ 
   @media screen and (min-width: 768px) {
     .section-main {
         height: auto;
