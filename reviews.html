@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Amizh  | About Us</title>
+<title>Amizh  | My Story</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -15,6 +15,309 @@
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+html, body {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Spartan', sans-serif;
+}
+
+div.container {
+max-width: 1400px;
+margin: auto;
+margin-top:10%;
+}
+
+
+.header h1{
+color: hsl(300, 43%, 22%);
+}
+
+.subtitle p {
+color: hsl(303, 10%, 53%);
+line-height: 1.8em;
+font-weight: 400;
+}
+
+.text-cards .user-info {
+height: 5rem;
+width: 12rem;
+padding: 0;
+margin: 1rem 0;
+display: grid;
+grid-template-columns: .5fr 1fr;
+grid-template-rows: .5fr .5fr;
+grid-template-areas: 
+"img user "
+"img verified ";
+grid-gap: 0 0;
+}
+
+.text-cards img {
+grid-area: img;
+border-radius: 50%;
+width: 3rem;
+height: auto;
+align-self: center;
+}
+
+.text-cards .user {
+grid-area: user;
+align-self: end;
+font-size: .8rem;
+font-weight: bold;
+margin: 0 0 .25rem;
+padding: 0;
+}
+
+.text-cards .verified {
+grid-area: verified;
+align-self: start;
+font-size: .8rem;
+font-weight: 400;
+color: hsl(333, 80%, 67%);
+margin: .25rem 0;
+padding: 0;
+
+}
+
+.attribution {
+width: 100%;
+font-size: 20px;
+text-align: center;
+bottom: 0;
+}
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
+
+/*Phone screen*/
+@media screen and (min-width: 375px) and (max-width: 1439px) {
+body {
+  background: url('images/bg-pattern-top-mobile.svg') no-repeat;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.header h1{
+  font-size: 2rem;
+  text-align: center;
+  margin: 4.5rem 3rem .5rem;
+}
+
+.subtitle p {
+  font-size: .95rem;
+  margin: 1rem .8rem 2rem;
+  padding: 0;
+  text-align: center;
+}
+
+div.rating-cards div{
+  background-color: hsl(300, 24%, 96%);
+  margin: 1rem 1rem 2rem;
+  padding: 1rem 0; 
+  border-radius: 8px;
+  align-content: center;
+  justify-content: center;
+}
+
+span.stars {
+  display: block;
+  margin: 0 auto 1rem;
+  padding: 0;
+  text-align: center;
+}
+
+.stars img {
+  width: 1rem;
+  height: auto;
+  margin-left: .5rem;
+}
+
+div.rating-cards p {
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  font-size: .8rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div.text-cards div {
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  border-radius: 8px; 
+  margin: 1rem 5%;
+  padding: 1rem 2.5rem 2.5rem;
+  height: 15rem;
+}
+
+.text-cards .user-info {
+  height: 5rem;
+  width: 12rem;
+  padding: 0;
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  grid-template-rows: .5fr .5fr;
+  grid-template-areas: 
+  "img user "
+  "img verified ";
+  grid-gap: 0 0;
+}
+
+.text-cards img {
+  grid-area: img;
+  border-radius: 50%;
+  width: 3rem;
+  height: auto;
+  align-self: center;
+}
+
+.text-cards .user {
+  grid-area: user;
+  align-self: end;
+  font-size: .8rem;
+  font-weight: bold;
+  margin: 0 0 .25rem;
+  padding: 0;
+}
+
+.text-cards .verified {
+  grid-area: verified;
+  align-self: start;
+  font-size: .8rem;
+  font-weight: 400;
+  color: hsl(333, 80%, 67%);
+  margin: .25rem 0;
+  padding: 0;
+
+}
+
+.text-cards .comment {
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+}
+
+/*Desktop screen*/
+@media screen and (min-width: 1400px) {
+body {
+  background: url("images/bg-pattern-top-desktop.svg") no-repeat left top, 
+  url("images/bg-pattern-bottom-desktop.svg") no-repeat bottom right;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "title-card rating-cards"
+  "text-cards text-cards";
+  margin: 5rem 12rem 1rem;
+}
+
+div.title-card {
+  grid-area: title-card;
+  width: 80%;
+}
+
+.title-card h1 {
+  font-size: 3rem;
+  width: 80%;
+}
+
+.title-card p {
+  width: 95%;
+}
+
+div.rating-cards {
+  grid-area: rating-cards;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+
+div.rating-cards div {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 6px;
+  width: 75%;
+  padding: .5rem;
+  margin: 1rem 5rem 1rem 0;
+}
+/*Create horizontal staggered effect for star ratings*/
+div.rating-cards div:nth-of-type(2) {
+  margin-left:5rem;
+}
+
+div.rating-cards div:nth-of-type(3) {
+  margin-left:10rem;
+}
+
+.rating-cards span {
+  margin: auto 1rem;
+}
+
+.rating-cards p {
+  color: hsl(300, 43%, 22%);
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+div.text-cards {
+  grid-area: text-cards;
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+  margin-top: 3rem;
+  align-content: center;
+  justify-content: space-between;
+}
+div.text-cards div {
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  border-radius: 8px; 
+  padding: .5rem 2rem;
+  width: 22rem;
+  font-size: .8rem;
+  line-height: 2;
+  margin-right: 1.5rem;
+}
+
+/*Create vertical staggered effect for text reviews*/
+div.text-cards div:nth-of-type(1) {
+  align-self: flex-start;
+}
+div.text-cards div:nth-of-type(2) {
+  align-self: center;
+}
+
+div.text-cards div:nth-of-type(3) {
+  align-self: flex-end;
+}
+
+.attribution {
+  position: fixed; 
+  bottom: 0;
+}
+
+}
+</style>
 
 
 <body>
@@ -32,150 +335,93 @@
   
     
     <!--Page Info-->
-    <section class="page-info">
-        <div class="auto-container clearfix">
-            <div class="pull-left"><h2>Reviews</h2></div>
-            <div class="pull-right">
-                <ul class="bread-crumb clearfix">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Reviews</li>
-                </ul>
-            </div>
-        </div>
-    </section>  
+    <body>
 
-    <section class="testimonials-section">
-    	<div class="auto-container">
-        	<!--Section Title-->
-            <div class="sec-title centered">
-            	<h2>Testimonials</h2>
-                <div class="desc-text">What our clients says</div>
-                <div class="styled-line"></div>
-            </div>
-            
-            <!--Slider Content-->
-            <ul class="testimonial-slider-content">
-            	<!--Slide Item-->
-            	<li class="slide-item"><div class="text">“The world don't move to the beat of just one drum what might be right for you may not be right for some and when the dangers work to do the movie star the professor and Mary Ann here on Gilligans Isle.”</div></li>
-                <!--Slide Item-->
-            	<li class="slide-item"><div class="text">“The world don't move to the beat of just one drum what might be right for you may not be right for some and when the dangers work to do the movie star the professor and Mary Ann here on Gilligans Isle.”</div></li>
-                <!--Slide Item-->
-            	<li class="slide-item"><div class="text">“The world don't move to the beat of just one drum what might be right for you may not be right for some and when the dangers work to do the movie star the professor and Mary Ann here on Gilligans Isle.”</div></li>
-                <!--Slide Item-->
-            	<li class="slide-item"><div class="text">“The world don't move to the beat of just one drum what might be right for you may not be right for some and when the dangers work to do the movie star the professor and Mary Ann here on Gilligans Isle.”</div></li>
-                <!--Slide Item-->
-            	<li class="slide-item"><div class="text">“The world don't move to the beat of just one drum what might be right for you may not be right for some and when the dangers work to do the movie star the professor and Mary Ann here on Gilligans Isle.”</div></li>
-                <!--Slide Item-->
-            	<li class="slide-item"><div class="text">“The world don't move to the beat of just one drum what might be right for you may not be right for some and when the dangers work to do the movie star the professor and Mary Ann here on Gilligans Isle.”</div></li>
-            </ul>
-            
-            <div class="styled-dots"></div>
-            
-            <div class="pagers-outer">
-                <!--Slider Pager-->
-                <ul class="testimonial-slider-pager">
-                    <!--Pager Item-->
-                    <li class="pager-item">
-                        <div class="inner-box">
-                            <figure class="author-tumb"><img src="images/resource/testimonial-thumb-1.jpg" alt=""></figure>
-                            <div class="title">Stella</div>
-                            <div class="location">KIDSY</div>
-                            <div class="social"><a href="#"><span class="fa fa-facebook-f"></span></a> <a href="#"><span class="fa fa-twitter"></span></a> <a href="#"><span class="fa fa-instagram"></span></a></div>
-                        </div>
-                    </li>
-                    <!--Pager Item-->
-                    <li class="pager-item">
-                        <div class="inner-box">
-                            <figure class="author-tumb"><img src="images/resource/testimonial-thumb-2.jpg" alt=""></figure>
-                            <div class="title">Roseline Cynthia</div>
-                            <div class="location">Maryland</div>
-                            <div class="social"><a href="#"><span class="fa fa-facebook-f"></span></a> <a href="#"><span class="fa fa-twitter"></span></a> <a href="#"><span class="fa fa-instagram"></span></a></div>
-                        </div>
-                    </li>
-                    <!--Pager Item-->
-                    <li class="pager-item">
-                        <div class="inner-box">
-                            <figure class="author-tumb"><img src="images/resource/testimonial-thumb-3.jpg" alt=""></figure>
-                            <div class="title">Mark Joseph</div>
-                            <div class="location">Aston</div>
-                            <div class="social"><a href="#"><span class="fa fa-facebook-f"></span></a> <a href="#"><span class="fa fa-twitter"></span></a> <a href="#"><span class="fa fa-instagram"></span></a></div>
-                        </div>
-                    </li>
-                    <!--Pager Item-->
-                    <li class="pager-item">
-                        <div class="inner-box">
-                            <figure class="author-tumb"><img src="images/resource/testimonial-thumb-1.jpg" alt=""></figure>
-                            <div class="title">Stella</div>
-                            <div class="location">KIDSY</div>
-                            <div class="social"><a href="#"><span class="fa fa-facebook-f"></span></a> <a href="#"><span class="fa fa-twitter"></span></a> <a href="#"><span class="fa fa-instagram"></span></a></div>
-                        </div>
-                    </li>
-                    <!--Pager Item-->
-                    <li class="pager-item">
-                        <div class="inner-box">
-                            <figure class="author-tumb"><img src="images/resource/testimonial-thumb-2.jpg" alt=""></figure>
-                            <div class="title">Roseline Cynthia</div>
-                            <div class="location">Maryland</div>
-                            <div class="social"><a href="#"><span class="fa fa-facebook-f"></span></a> <a href="#"><span class="fa fa-twitter"></span></a> <a href="#"><span class="fa fa-instagram"></span></a></div>
-                        </div>
-                    </li>
-                    <!--Pager Item-->
-                    <li class="pager-item">
-                        <div class="inner-box">
-                            <figure class="author-tumb"><img src="images/resource/testimonial-thumb-3.jpg" alt=""></figure>
-                            <div class="title">Mark Joseph</div>
-                            <div class="location">Aston</div>
-                            <div class="social"><a href="#"><span class="fa fa-facebook-f"></span></a> <a href="#"><span class="fa fa-twitter"></span></a> <a href="#"><span class="fa fa-instagram"></span></a></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            
-        </div>
-    </section>
 
-    <section>
-      <div class="auto-container">
-        <main>
-          <section class="review">
-            <h2>Review Title</h2>
-            <p class="reviewer">Reviewer Name</p>
-            <p class="date">Review Date</p>
-            <p class="rating">Rating: 4 out of 5</p>
-            <p class="comment">Review comment goes here...</p>
-          </section>
-      
-          <section class="review">
-            <h2>Review Title</h2>
-            <p class="reviewer">Reviewer Name</p>
-            <p class="date">Review Date</p>
-            <p class="rating">Rating: 3 out of 5</p>
-            <p class="comment">Review comment goes here...</p>
-          </section>
-      
-          <!-- Add more review sections as needed -->
-      
-        </main>
+
+      <div class="container">
+      <div class="title-card">
+        <div class = "header">
+          <h1>10,000+ of our users love our products.</h1>
+        </div>
+    
+        <div class="subtitle">
+          <p>
+            We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
+          </p>
+        </div>
       </div>
-    </section>
-    
 
-
-    
-    <!--Call to Action-->
-    <section class="call-to-action">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-                <div class="col-md-8 col-sm-12 col-xs-12">
-                    <h3>Choose your Schedule and start learning Yogaa</h3>
-                </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="text-right"><a href="#" class="theme-btn btn-style-six">Book Now</a></div>
-                </div>
-            </div>
+  
+      <div class="rating-cards">
+        <div id="rating-card-1">
+          <span class="stars">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+          </span>
+          <p>Rated 5 Stars in Reviews</p>
         </div>
-    </section>
-    
+        <div id="rating-card-2">
+          <span class="stars">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+          </span>
+          <p>Rated 5 Stars in Report Guru</p>
+        </div>
+        <div id="rating-card-3">
+          <span class="stars">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+          </span>
+          <p>Rated 5 Stars in BestTech</p>
+         </span>
+        </div>
+      </div> 
+  
+      <div class="text-cards">
+        <div id="text-card-1">
+          <div class="user-info">
+            <img src="images/image-colton.jpg" alt="Image of user: Colton">
+            <p class = "user">Colton Smith </p>
+            <p class = "verified">Verified Buyer</p>
+          </div>
+          <p class = "comment">
+            "We needed the same printed design as the one we had ordered a week prior.Not only did they find the original order, but we also received it in time.
+            Excellent!"
+          </p>
+        </div>
+        <div id="text-card-2">
+          <div class="user-info">
+            <img src="images/image-irene.jpg" alt="Image of user: Irene">
+            <p class = "user">Irene Roberts </p>
+            <p class = "verified">Verified Buyer</p>            
+          </div>
+          <p class = "comment">
+            "Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."
+          </p>
+        </div>
+        <div id="text-card-3">
+          <div class="user-info">
+            <img src="images/image-anne.jpg" alt="Image of user: Anne">
+            <p class = "user">Anne Wallace </p>
+            <p class = "verified">Verified Buyer</p>           
+          </div>
+          <p class = "comment">
+            "Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"
+          </p>
+        </div>
+      </div>
+    </div>   
+  
     
     <!--Testimonials Section-->
    
