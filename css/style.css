@@ -1234,13 +1234,14 @@ li {
   font-family: "Tangerine", cursive;
 }
 
-.main-slider .content-box .big-text {
+.main-slider .content-box .small-text {
   font-size: 120px;
   color: #ffffff;
+  text-align: justify;
   font-weight: 300;
-  letter-spacing: 10px;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "times new roman", sans-serif;
+  /* text-transform: uppercase; */
   line-height: 1.2em;
 }
 
