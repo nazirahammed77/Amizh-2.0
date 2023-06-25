@@ -14,10 +14,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/timeline.css" rel="stylesheet">
     <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link href="css/timelineSlider.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <link rel="preload" href="../assets/fonts/brand-icons/brand-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../assets/fonts/unicons/Unicons.woff?lkolxg" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/css/uikit.min.css" as="style">
+
+    <link rel="stylesheet" href="scss/main.scss">
     
 </head>
 
@@ -107,10 +116,10 @@
             </div>
         </div>
 
-        
+       
           
-          <section class="timelines">
-            <div id="app" class="container">
+          <!-- <section class="timelines">
+            <div id="app" cl">
                 <div class="row">
                   <div class="col-md-12">
                     
@@ -119,7 +128,7 @@
                         <button type="button" class="btn btn-default btn-sm prev-slide">Prev</button>
                         <button type="button" class="btn btn-default btn-sm next-slide">Next</button>
                       </p>
-                      <div class="swiper-wrapper timeline">
+                      <div class="swiper-wrapper timeline"> -->
               <!--           <div class="swiper-slide" v-for="item in steps">
                           <div class="timestamp">
                             <span class="date">{{item.dateLabel}}<span>
@@ -127,7 +136,7 @@
                           <div class="status">
                             <span>{{item.title}}</span>
                           </div>
-                        </div> -->
+                        </div>
                         <div class="swiper-slide">
                           <div class="timestamp">
                             <span class="date"> 2010<span>
@@ -184,11 +193,11 @@
                           </div>
                       </div>
                       <!-- Add Pagination -->
-                      <div class="swiper-pagination"></div>
+                      <!-- <div class="swiper-pagination"></div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
             <!-- <div class="arrows">
               <button class="arrow arrow__prev disabled prev-slide" disabled>
@@ -198,8 +207,79 @@
                 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow_next.svg" alt="next timeline arrow">
               </button>
             </div> -->
-          </section>
+          <!-- </section> --> -->
           
+
+
+          
+    <div class="timeline">
+
+        <div class="con left-con" >
+
+            <img src="images/rec.png" >
+            <div class="text-box">
+                <h2>2010</h2>
+              
+                <p>Moved to Sweden for postgraduation</p>
+             <span class="left-con-arrow"></span>
+            </div>
+        </div>
+
+        <div class="con right-con">
+
+            <img src="images/rec.png" >
+            <div class="text-box">
+                <h2>2012</h2>
+                
+                <p>Graduated in Molecular Medicine. 
+                    Moved to Japan</p>
+                <span class="right-con-arrow"></span>
+            </div>
+        </div>
+        <div class="con left-con">
+            <img src="images/rec.png" >
+            <div class="text-box">
+                <h2> 2014</h2>
+                
+                <p>Returned to Sweden.
+                    Started my Doctoral studies in Medical Sciences</p>
+                <span class="left-con-arrow"></span>
+            </div>
+        </div>
+        <div class="con right-con">
+            <img src="images/rec.png" >
+            <div class="text-box">
+                <h2> 2018</h2>
+                
+                <p>Finished with my PhD/Doctoral studies.
+                    Birth of my Son-Aram Amizhthan in Sweden</p>
+                <span class="right-con-arrow"></span>
+            </div>
+        </div>
+
+        <div class="con left-con">
+            <img src="images/rec.png" >
+            <div class="text-box">
+                <h2>2020-2021</h2>
+                
+                <p>Completed my International certification on Childbirth Education, CCCE (CAPPA USA)
+                    Became Advanced Certified Lactation professional, ACLP (Begin Ed India)</p>
+                <span class="left-con-arrow"></span>
+            </div>
+        </div>
+
+        <div class="con right-con">
+            <img src="images/rec.png" >
+            <div class="text-box">
+                <h2>2023</h2>
+                
+                <p>Yoga alliance Certified Yoga Instructor Specialized in Prenatal & Postnatal Yoga Training
+                    Birth of ‘AMIZH Birth&Yoga’</p>
+                <span class="right-con-arrow"></span>
+            </div>
+        </div>
+
+    </div>
         
 
         <!--Nature Of Yogaa-->
