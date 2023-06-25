@@ -113,7 +113,7 @@ h5,
 h6 {
   position: relative;
   font-family: "Raleway", sans-serif;
-  font-weight: normal;
+  font-weight: revert;
   margin: 0px;
   background: none;
   line-height: 1.6em;
@@ -357,7 +357,7 @@ li {
 }
 
 .padd-top-20 {
-  padding-top: 20px !important;
+  padding-top: 65px !important;
 }
 
 .padd-top-30 {
