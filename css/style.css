@@ -1229,14 +1229,14 @@ li {
 
 .main-slider .content-box h3 {
   font-size: 44px;
-  color: #ffffff;
+  color: #fb6b9a;
   font-weight: 700;
   font-family: "Tangerine", cursive;
 }
 
 .main-slider .content-box .small-text {
   font-size: 120px;
-  color: #ffffff;
+  color: #6c367c;
   text-align: justify;
   font-weight: 300;
   letter-spacing: 1px;
@@ -1244,6 +1244,7 @@ li {
   /* text-transform: uppercase; */
   line-height: 1.2em;
 }
+
 
 .main-slider .tp-bullets.preview3 .bullet {
   border: 2px solid #c1c1c1 !important;
