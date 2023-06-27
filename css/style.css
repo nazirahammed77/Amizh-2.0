@@ -6392,3 +6392,34 @@ body.popup-visible {
   max-width: 100%;
   padding-left: 30px;
 }
+.question-container {
+  border: 1px solid #ccc;
+  padding: 200px;
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question::after {
+  content: '\25BE';
+  margin-left: 5px;
+}
+
+.answer {
+  display: none;
+  padding-left: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.question-line {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}

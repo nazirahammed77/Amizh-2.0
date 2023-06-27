@@ -22,6 +22,14 @@
     <link rel="stylesheet" href="./css/Services.css">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+
+    <script>
+        function toggleAnswer(event) {
+          var answer = event.target.nextElementSibling;
+          answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+        }
+      </script>
 </head>
 
 <body>
@@ -394,6 +402,51 @@
 
 
         </section>
+
+        <!-- q & a section -->
+
+ <div class="question-container">
+    <h1>Q&A Section</h1>
+
+    <div class="question" onclick="toggleAnswer(event)">Q1. What is HTML?</div>
+    <div class="answer">HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages.</div>
+
+    <div class="question-line"></div>
+
+    <div class="question" onclick="toggleAnswer(event)">Q2. What is CSS?</div>
+    <div class="answer">CSS stands for Cascading Style Sheets. It is a stylesheet language used for describing the look and formatting of a document written in HTML.</div>
+
+    <div class="question-line"></div>
+
+    <div class="question" onclick="toggleAnswer(event)">Q3. What is JavaScript?</div>
+    <div class="answer">JavaScript is a high-level programming language that allows you to add interactivity and dynamic behavior to web pages.</div>
+
+    <div class="question-line"></div>
+
+    <div class="question" onclick="toggleAnswer(event)">Q4. What is responsive web design?</div>
+    <div class="answer">Responsive web design is an approach to designing and coding websites that provide an optimal viewing and interaction experience across different devices and screen sizes.</div>
+
+    <div class="question-line"></div>
+
+    <div class="question" onclick="toggleAnswer(event)">Q5. What is a browser?</div>
+    <div class="answer">A browser is a software application used to access and view websites on the internet. Examples include Google Chrome, Mozilla Firefox, and Safari.</div>
+
+    <div class="question-line"></div>
+
+    <div class="question" onclick="toggleAnswer(event)">Q6. What is a URL?</div>
+    <div class="answer">URL stands for Uniform Resource Locator. It is the address or location of a resource (web page, image, video, etc.) on the internet.</div>
+
+    <div class="question-line"></div>
+
+    <div class="question" onclick="toggleAnswer(event)">Q7. What is a server?</div>
+    <div class="answer">A server is a computer or system that provides resources or services to other computers, known as clients, over a network. In the context of websites, a web server delivers web pages to client browsers.</div>
+
+    <div class="question-line"></div>
+
+    <div class="question" onclick="toggleAnswer(event)">Q8. What is the difference between margin and padding?</div>
+    <div class="answer">Margin is the space outside an element, while padding is the space inside an element. Margin affects the spacing between elements, whereas padding affects the spacing between the content and the border of an element.</div>
+  </div>
+        
 
 
         <section class="video-section" style="background-image: url(images/parallax/image-1.jpg)">

@@ -455,3 +455,11 @@
 		margin-bottom:20px;	
 	}
 }
+@media only screen and (max-width:1200px){
+	.uk-container .uk-panel1{
+		display: contents;
+		padding-left: 100px;
+
+	}
+	
+}
