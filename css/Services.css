@@ -83,6 +83,9 @@
     max-width: 50%;
   }
 }
+.service-main-page p{
+  padding-left: 80px;padding-right: 80px;text-align: center;margin-top: 25px;font-size: 18px;
+}
 @media screen and (min-width: 1200px) {
   .section-main {
     padding: 1em 3em;
@@ -90,5 +93,14 @@
   .column-main {
     flex: 0 0 33.33%;
     max-width: 33.33%;
+  }
+}
+
+@media screen  and (max-width:480px){
+  .service-main-page p{
+    
+      padding-left: 10px;
+      padding-right: 10px;
+    
   }
 }
