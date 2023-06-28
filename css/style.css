@@ -6392,9 +6392,10 @@ body.popup-visible {
   max-width: 100%;
   padding-left: 30px;
 }
+
 .question-container {
   border: 1px solid #ccc;
-  padding: 200px;
+  padding: 20px;
   text-align: center;
 }
 

@@ -463,3 +463,16 @@
 	}
 	
 }
+@media only screen and (max-width: 768px) {
+	.question-container {
+	  padding: 20px;
+	}
+	
+	.question {
+	  font-size: 18px;
+	}
+  
+	.answer {
+	  font-size: 14px;
+	}
+  }
