@@ -2054,10 +2054,10 @@ li {
   text-align: center;
   font-size: 32px;
   color: #ffffff;
-  background: #0060b2;
+  background: #ffffff;
   border-radius: 50%;
 }
-
+/* 
 .why-choose-yoga .left-column .feature-block:nth-child(2) .icon-box {
   background: #27ae60;
 }
@@ -2076,7 +2076,7 @@ li {
 
 .why-choose-yoga .right-column .feature-block:nth-child(3) .icon-box {
   background: #27ae60;
-}
+}*/
 
 .why-choose-yoga .left-column .feature-block .icon-box {
   right: 0px;
@@ -2084,7 +2084,7 @@ li {
 
 .why-choose-yoga .right-column .feature-block .icon-box {
   left: 0px;
-}
+} 
 
 /*** 
 
