@@ -2674,6 +2674,64 @@ li {
   letter-spacing: 2px;
 }
 
+.fb{
+  color: black;
+}
+.facebook:hover .fb{
+  color:white;
+}
+
+.ig{
+  color: black;
+}
+.instagram:hover .ig{
+  color:white;
+}
+
+.ln{
+  color: black;
+}
+.linkedin:hover .ln{
+  color:white;
+}
+
+.yt{
+  color: black;
+}
+.youtube:hover .yt{
+  color:white;
+}
+
+.wp{
+  color: black;
+}
+.whatsapp:hover .wp{
+  color:white;
+}
+.ps{
+  color: black;
+}
+.playstore:hover .ps{
+  color:white;
+}
+
+
+.card-front{
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*** 
 
 ====================================================================
@@ -2710,6 +2768,250 @@ li {
   color: #999999;
 }
 
+.about-card{
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.about-card-main{
+ 
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+}
+
+.about-card-1 , .about-card-2{
+  width: 400px;
+  height: 550px;
+  background-image: url(../images/resource/P2.jpg);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.about-card-1 p, .about-card-2 p{
+ visibility: hidden;
+  
+}
+.about-card-1 h3, .about-card-2 h3{
+  visibility: hidden;
+   
+ }
+ .about-card-1 .about-div , .about-card-2 .about-div {
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+.about-card-1:hover .about-div , .about-card-2:hover .about-div {
+   
+  background: white;
+  border-color: #1f1f1f;
+  border-width: 1px;
+  border-style: solid;
+}
+.about-card-1:hover h3, .about-card-2:hover h3{
+  visibility: visible;
+   
+ }
+
+ .about-card-1:hover p, .about-card-2:hover p{
+  visibility: visible;
+   
+ }
+
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+  .about-card{
+    margin-top: 60px;
+  }
+  .about-card-main{
+   
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+    flex-direction: column;
+  }
+  
+  .about-card-1 , .about-card-2{
+    width: 400px;
+    height: 550px;
+   
+  }
+  .about-card-2{
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width:480px) {
+  .about-card{
+    margin-top: 60px;
+  }
+  .about-card-main{
+   
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+    flex-direction: column;
+  }
+  .about-card-1:hover .about-div , .about-card-2:hover .about-div {
+   padding: 10px;
+   width: 350px;
+   height: 550px;
+  }
+  .about-card-1 , .about-card-2{
+    width: 350px;
+    height: 550px;
+   
+  }
+  .about-card-1 .about-div , .about-card-2 .about-div{
+    width: 350px;
+    height: 550px;
+   
+  }
+  .about-card-2{
+    margin-top: 70px;
+  }
+}
+.about-second{
+
+  margin: 100px auto auto auto;
+  width: 62%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  background-image: url(../images/resource/P2.jpg);
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ 
+}
+
+.about-second div{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 100%;
+  padding: 30px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100%;
+
+ 
+}
+.about-second .summa-ab h3{
+ visibility: hidden;
+ 
+}
+.about-second .summa-ab p{
+  visibility: hidden;
+  
+ }
+
+.about-second .summa-ab:hover h3{
+  visibility: visible;
+  
+ }
+ .about-second .summa-ab:hover p{
+  visibility: visible;
+  
+ }
+ 
+ 
+
+.about-second:hover div{
+background-color: white;
+
+}
+
+
+
+@media screen  and (max-width:1460px){
+  .about-second {
+    width: 70%;
+    height: 700px;
+    }
+   
+}
+@media screen  and (max-width:1100px){
+  .about-second {
+    width: 70%;
+    height: 750px;
+    }
+   
+}
+@media screen  and (max-width:920px){
+  .about-second {
+    width: 70%;
+    height: 850px;
+    }
+   
+}
+@media screen  and (max-width:880px){
+  .about-second {
+    
+    height: 850px;
+    width: 70%;
+    }
+   
+}
+
+@media screen  and (max-width:780px){
+  .about-second {
+    
+    height: 900px;
+    width: 70%;
+    }
+   
+}
+@media screen  and (max-width:720px){
+  .about-second {
+    
+    height: 950px;
+    width: 70%;
+    }
+   
+}
+@media screen  and (max-width:675px){
+  .about-second {
+    
+    height: 1050px;
+    width: 70%;
+    }
+   
+}
+@media screen  and (max-width:620px){
+  .about-second {
+    
+    height: 1150px;
+    width: 70%;
+    }
+   
+}
+
+@media screen  and (max-width:575px){
+  .about-second {
+    
+    height: 1200px;
+    width: 80%;
+    }
+   
+}
+
+@media screen and (max-width:484px) {
+  .about-second {
+    
+    height: 1400px;
+    width: 80%;
+    }
+   
+  
+}
+
 /*** 
 
 ====================================================================
@@ -2730,6 +3032,7 @@ li {
 .map-section.extended .map-container {
   height: 500px;
 }
+
 
 .map-section .map-data {
   text-align: center;
