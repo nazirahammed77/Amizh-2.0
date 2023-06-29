@@ -2674,6 +2674,64 @@ li {
   letter-spacing: 2px;
 }
 
+.fb{
+  color: black;
+}
+.facebook:hover .fb{
+  color:white;
+}
+
+.ig{
+  color: black;
+}
+.instagram:hover .ig{
+  color:white;
+}
+
+.ln{
+  color: black;
+}
+.linkedin:hover .ln{
+  color:white;
+}
+
+.yt{
+  color: black;
+}
+.youtube:hover .yt{
+  color:white;
+}
+
+.wp{
+  color: black;
+}
+.whatsapp:hover .wp{
+  color:white;
+}
+.ps{
+  color: black;
+}
+.playstore:hover .ps{
+  color:white;
+}
+
+
+.card-front{
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*** 
 
 ====================================================================
@@ -2710,6 +2768,107 @@ li {
   color: #999999;
 }
 
+.about-card{
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.about-card-main{
+ 
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+}
+
+.about-card-1 , .about-card-2{
+  width: 400px;
+  height: 550px;
+  background-image: url(../images/resource/P2.jpg);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.about-card-1 p, .about-card-2 p{
+ visibility: hidden;
+  
+}
+.about-card-1 h3, .about-card-2 h3{
+  visibility: hidden;
+   
+ }
+ .about-card-1 .about-div , .about-card-2 .about-div {
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+.about-card-1:hover .about-div , .about-card-2:hover .about-div {
+   
+  background: white;
+  border-color: #1f1f1f;
+  border-width: 1px;
+  border-style: solid;
+}
+.about-card-1:hover h3, .about-card-2:hover h3{
+  visibility: visible;
+   
+ }
+
+ .about-card-1:hover p, .about-card-2:hover p{
+  visibility: visible;
+   
+ }
+
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+  .about-card{
+    margin-top: 60px;
+  }
+  .about-card-main{
+   
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+    flex-direction: column;
+  }
+  
+  .about-card-1 , .about-card-2{
+    width: 400px;
+    height: 550px;
+   
+  }
+  .about-card-2{
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width:480px) {
+  .about-card{
+    margin-top: 60px;
+  }
+  .about-card-main{
+   
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+    flex-direction: column;
+  }
+  
+  .about-card-1 , .about-card-2{
+    width: 350px;
+    height: 450px;
+   
+  }
+  .about-card-2{
+    margin-top: 70px;
+  }
+}
 /*** 
 
 ====================================================================
@@ -2730,6 +2889,7 @@ li {
 .map-section.extended .map-container {
   height: 500px;
 }
+
 
 .map-section .map-data {
   text-align: center;
