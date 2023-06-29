@@ -2869,6 +2869,56 @@ li {
     margin-top: 70px;
   }
 }
+.about-second{
+
+  margin: 100px auto auto auto;
+  width: 62%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  background-image: url(../images/resource/P2.jpg);
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ 
+}
+
+.about-second div{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 100%;
+  padding: 30px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100%;
+
+ 
+}
+.about-second .summa-ab h3{
+ visibility: hidden;
+ 
+}
+.about-second .summa-ab p{
+  visibility: hidden;
+  
+ }
+
+.about-second .summa-ab:hover h3{
+  visibility: visible;
+  
+ }
+ .about-second .summa-ab:hover p{
+  visibility: visible;
+  
+ }
+ 
+ 
+
+.about-second:hover div{
+background-color: white;
+
+}
+
 /*** 
 
 ====================================================================
