@@ -74,6 +74,10 @@
   outline: none;
 }
 
+*{
+  font-family: "poppins";
+}
+
 /*** 
 
 ====================================================================
@@ -1982,7 +1986,6 @@ li {
   position: relative;
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding-bottom: 90px;
 }
 
 .why-choose-yoga .feature-block {
