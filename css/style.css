@@ -2955,6 +2955,21 @@ span.nmbr {
   }
 }
 
+/* @media screen and (min-width:991px) {
+  .md-stepper-horizontal{
+    display:none;
+  }
+  
+}
+@media screen and (max-width:991px) {
+  .md-stepper-horizontal{
+    visibility:visible;
+  }
+  .tabbable{
+    visibility: hidden;
+  }
+  
+} */
 .visible-1{
   visibility: visible;
 }
@@ -2972,7 +2987,7 @@ span.nmbr {
 	width:100%;
 	margin:0 auto;
 	background-color:#FFFFFF;
-	box-shadow: 0 3px 8px -6px rgba(0,0,0,.50);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .md-stepper-horizontal .md-step {
 	display:table-cell;
@@ -3084,6 +3099,18 @@ span.nmbr {
 	margin-right:20px;
 }
 
+@media screen and (max-width:477px) {
+  .md-stepper-horizontal {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    margin:0 auto;
+    background-color:#FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+}
 
 
 
