@@ -1952,16 +1952,16 @@ li {
   padding: 8px 40px;
   font-size: 13px;
   text-transform: uppercase;
-  border: 1px solid #0060b2;
-  background: #0060b2;
-  color: #ffffff;
+  border: 1px solid #bea8a7;
+  background: #bea8a7;
+  color: #2a0800;
   letter-spacing: 1px;
   font-weight: 600;
 }
 
 .event-form-box input[type="submit"]:hover,
 .event-form-box button:hover {
-  border-color: #ffffff;
+  border-color: #775144;
   background: none;
 }
 
@@ -2658,12 +2658,12 @@ li {
   position: relative;
   padding: 70px 0px;
   color: #ffffff;
-  background-color: #27ae60;
+  background-color: #c09891;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/background/pattern-image-2.png);
+  /* background-image: url(../images/background/pattern-image-2.png); */
 }
 
 .call-to-action h3 {
