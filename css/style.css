@@ -74,10 +74,6 @@
   outline: none;
 }
 
-*{
-  font-family: "poppins";
-}
-
 /*** 
 
 ====================================================================
@@ -116,7 +112,7 @@ h4,
 h5,
 h6 {
   position: relative;
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins";
   font-weight: revert;
   margin: 0px;
   background: none;
@@ -127,12 +123,13 @@ input,
 button,
 select,
 textarea {
-  font-family: "Lato", sans-serif;
+  font-family: "redhatdisplay";
 }
 
 p {
   position: relative;
   line-height: 1.6em;
+  font-family: "redhatdisplay";
 }
 
 .strike-through {
@@ -253,19 +250,19 @@ li {
   padding: 10px 40px;
   line-height: 24px;
   text-transform: uppercase;
-  background: #27ae60;
-  color: #ffffff !important;
+  background: #fadbd8;
+  color: #c09891 !important;
   font-size: 13px;
   font-weight: 600;
-  border: 1px solid #27ae60 !important;
+  border: 1px solid #fadbd8 !important;
   font-family: "Lato", serif;
   letter-spacing: 1px;
 }
 
 .btn-style-three:hover {
-  background: #ffffff;
-  color: #27ae60 !important;
-  border-color: #27ae60 !important;
+  background: #c09891;
+  color: #fadbd8 !important;
+  border-color: #fadbd8!important;
 }
 
 .btn-style-four {
@@ -273,8 +270,8 @@ li {
   padding: 10px 40px;
   line-height: 24px;
   text-transform: uppercase;
-  background: #ffffff;
-  color: #222222 !important;
+  background: #fadbd8;
+  color: #c09891 !important;
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #ffffff !important;
@@ -283,9 +280,9 @@ li {
 }
 
 .btn-style-four:hover {
-  background: #27ae60;
-  color: #ffffff !important;
-  border-color: #27ae60 !important;
+  background: #c09891;
+  color: #fadbd8 !important;
+  border-color: #c09891 !important;
 }
 
 .btn-style-five {
@@ -1833,7 +1830,7 @@ li {
   font-weight: 500;
   font-size: 30px;
   line-height: 40px;
-  background: #0060b2 url(../images/background/pattern-image-1.png) center center repeat;
+  background: #c09891 url(../images/background/pattern-image-1.png) center center repeat;
 }
 
 .tabbed-events .event-btn .event-date .day {
@@ -6962,4 +6959,15 @@ body.popup-visible {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.right-column .theme-btn{
+
+  background-color: #bea8a7;
+  border: none;
+  color: #2a0800;
+}
+.right-column .theme-btn:hover{
+
+  background-color: #775144;
 }
