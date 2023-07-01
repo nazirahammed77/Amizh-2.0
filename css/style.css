@@ -83,7 +83,7 @@
  ***/
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   font-size: 15px;
   color: #777777;
   line-height: 1.8em;
@@ -250,8 +250,8 @@ li {
   padding: 10px 40px;
   line-height: 24px;
   text-transform: uppercase;
-  background: #fadbd8;
-  color: #c09891 !important;
+  background: #c09891;
+  color: #f4dbd8 !important;
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #fadbd8 !important;
@@ -260,8 +260,8 @@ li {
 }
 
 .btn-style-three:hover {
-  background: #c09891;
-  color: #fadbd8 !important;
+  background: #f4dbd8 ;
+  color: #000 !important;
   border-color: #fadbd8!important;
 }
 
@@ -270,8 +270,8 @@ li {
   padding: 10px 40px;
   line-height: 24px;
   text-transform: uppercase;
-  background: #fadbd8;
-  color: #c09891 !important;
+  background: #f4dbd8;
+  color: #000 !important;
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #ffffff !important;
@@ -281,7 +281,7 @@ li {
 
 .btn-style-four:hover {
   background: #c09891;
-  color: #fadbd8 !important;
+  color: #f4dbd8 !important;
   border-color: #c09891 !important;
 }
 
@@ -862,7 +862,7 @@ li {
   display: none;
   background: #222222;
   text-align: left;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   border-top: 2px solid rgba(0, 0, 0, 1);
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -936,7 +936,7 @@ li {
   display: none;
   background: #222222;
   text-align: left;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
@@ -1146,7 +1146,7 @@ li {
 .hidden-bar .side-menu {
   background-color: transparent;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   font-size: 13px;
   letter-spacing: 1px;
 }
@@ -2309,7 +2309,7 @@ li {
 
 .team-member .inner-box .member-title h3 {
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   font-weight: 600;
   text-transform: capitalize;
   color: #222222;
@@ -2667,7 +2667,7 @@ li {
 }
 
 .call-to-action h3 {
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   font-size: 30px;
   line-height: 46px;
   font-weight: 400;
@@ -3536,7 +3536,7 @@ background-color: white;
   margin-bottom: 5px;
   color: #2e2e2e;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
 }
 
 /*** 
@@ -4515,7 +4515,7 @@ body.popup-visible {
   margin: 0px 0px 5px;
   line-height: 1.4em;
   color: #333333;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   font-weight: 500;
 }
 
@@ -4754,7 +4754,7 @@ body.popup-visible {
   margin: 0px 0px 0px;
   line-height: 1.4em;
   color: #333333;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   font-weight: 400;
 }
 
@@ -5037,7 +5037,7 @@ body.popup-visible {
 .sidebar-page-container .comments-area .comment-info .comment-time {
   font-size: 13px;
   color: #888888;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
 }
 
 .sidebar-page-container .comments-area .reply-btn {
@@ -6098,7 +6098,7 @@ body.popup-visible {
 .products-section .shop-upper-box {
   position: relative;
   margin-bottom: 40px;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
 }
 
 .products-section .shop-upper-box .items-label {
@@ -6195,7 +6195,7 @@ body.popup-visible {
   font-size: 14px;
   padding-left: 10px;
   line-height: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
 }
 
 /*** 
@@ -6386,7 +6386,7 @@ body.popup-visible {
   position: relative;
   padding: 30px 30px;
   display: none;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
 }
 
 .prod-tabs .tabs-container .tab.active-tab {
@@ -6405,13 +6405,13 @@ body.popup-visible {
 .prod-tabs .tabs-container .tab h3 {
   font-size: 18px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
 }
 
 .prod-tabs .tabs-container .tab h4 {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
 }
 
 .prod-tabs .reviews-container {
@@ -6664,7 +6664,7 @@ body.popup-visible {
 .cart-table tbody tr td {
   line-height: 24px;
   padding: 25px 15px;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
 }
 
 .cart-table tbody tr .prod-info h3 {
@@ -7171,7 +7171,7 @@ body.popup-visible {
 .checkout-section .payment-options li .radio-option label .small-text {
   display: block;
   padding-top: 5px;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   letter-spacing: 0px;
   text-transform: none;
   font-weight: normal;
