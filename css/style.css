@@ -112,7 +112,7 @@ h4,
 h5,
 h6 {
   position: relative;
-  font-family: "poppins";
+  font-family: "redhatdisplay";
   font-weight: revert;
   margin: 0px;
   background: none;
@@ -1244,6 +1244,7 @@ li {
   font-family: "times new roman", sans-serif;
   /* text-transform: uppercase; */
   line-height: 1.2em;
+  text-align: center;
 }
 
 
