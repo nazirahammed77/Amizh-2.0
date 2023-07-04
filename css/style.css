@@ -1862,7 +1862,7 @@ li {
 
 .tabbed-events .right-column .inner-box {
   position: relative;
-  max-width: 620px;
+  max-width: 685px;
   padding: 110px 20px 80px;
   color: #ffffff;
 }
@@ -7246,9 +7246,9 @@ body.popup-visible {
 
 .right-column .theme-btn{
 
-  background-color: #bea8a7;
+  background-color: #ffffff;
   border: none;
-  color: #2a0800;
+  color: #c09891;
 }
 .right-column .theme-btn:hover{
 
