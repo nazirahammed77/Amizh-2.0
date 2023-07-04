@@ -1863,7 +1863,6 @@ li {
 .tabbed-events .right-column .inner-box {
   position: relative;
   max-width: 620px;
-  margin: 0 auto;
   padding: 110px 20px 80px;
   color: #ffffff;
 }
@@ -3575,7 +3574,7 @@ background-color: white;
 
   display: flex;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   padding-top: 50px;
   padding-bottom: 30px;
 
@@ -3760,8 +3759,8 @@ background-color: white;
   position: relative;
   padding: 15px 0px;
   line-height: 30px;
-  background: #000000;
-  color: #888888;
+  background: #c09891;
+  color: #ffffff;
   font-size: 12px;
   text-transform: uppercase;
 }
