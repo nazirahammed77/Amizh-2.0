@@ -7189,6 +7189,7 @@ body.popup-visible {
   border: 1px solid #ccc;
   padding: 20px;
   text-align: center;
+  font-family: "poppins";
 }
 
 .question {
