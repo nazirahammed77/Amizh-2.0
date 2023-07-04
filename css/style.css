@@ -215,7 +215,7 @@ li {
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #ac2473 !important;
-  font-family: "Lato", serif;
+  font-family: "poppins";
   letter-spacing: 1px;
 }
 
@@ -235,7 +235,7 @@ li {
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #ac2473 !important;
-  font-family: "Lato", serif;
+  font-family: "poppins";
   letter-spacing: 1px;
 }
 
@@ -255,7 +255,7 @@ li {
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #fadbd8 !important;
-  font-family: "Lato", serif;
+  font-family: "poppins";
   letter-spacing: 1px;
 }
 
@@ -275,7 +275,7 @@ li {
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #ffffff !important;
-  font-family: "Lato", serif;
+  font-family: "poppins";
   letter-spacing: 1px;
 }
 
@@ -295,7 +295,7 @@ li {
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #333333 !important;
-  font-family: "Lato", serif;
+  font-family: "poppins";
   letter-spacing: 1px;
 }
 
@@ -315,7 +315,7 @@ li {
   font-size: 13px;
   font-weight: 600;
   border: 1px solid #ffffff !important;
-  font-family: "Lato", serif;
+  font-family: "poppins";
   letter-spacing: 1px;
 }
 
@@ -784,7 +784,7 @@ li {
 .main-menu .navigation {
   position: relative;
   margin: 0px;
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins";
   width: 50%;
 }
 
@@ -1241,7 +1241,7 @@ li {
   text-align: justify;
   font-weight: 300;
   letter-spacing: 1px;
-  font-family: "times new roman", sans-serif;
+  font-family: "poppins";
   /* text-transform: uppercase; */
   line-height: 1.2em;
   text-align: center;
