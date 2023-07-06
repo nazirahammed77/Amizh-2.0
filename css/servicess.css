@@ -189,7 +189,7 @@ padding-bottom: 80px;
   text-align: center;
   font-family: "poppins";
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-size: 22px;
   line-height: 1.7;
   color: #444444;
@@ -211,6 +211,7 @@ padding-bottom: 80px;
 } */
 .card-back .pricing-wrap h4:before{
   background: linear-gradient(217deg, #648946, #a3c984);
+  letter-spacing: 0em;
 }
 @keyframes border-transform{
     0%,100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; } 
@@ -242,7 +243,7 @@ padding-bottom: 80px;
   width: 100%;
   display: block;
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
