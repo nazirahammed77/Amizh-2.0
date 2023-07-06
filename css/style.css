@@ -907,7 +907,7 @@ li {
 }
 
 .main-menu .navigation>li>ul>li.dropdown>a:after {
-  font-family: "FontAwesome";
+  font-family: "redhatdisplay";
   content: "\f061";
   position: absolute;
   right: 10px;
@@ -7254,4 +7254,8 @@ body.popup-visible {
 .right-column .theme-btn:hover{
 
   background-color: #775144;
+}
+
+.row{
+  justify-content: space-between;
 }
