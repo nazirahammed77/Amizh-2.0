@@ -623,6 +623,28 @@ li {
 .s4{
   padding-right: 25px;
 }
+@media  (min-width:1200px)  and (max-width:1440px){
+  .s3{
+      margin-top: 270px;
+      margin-right: -25px;
+  }
+}
+@media (min-width:1440px){
+  .s3{
+      margin-top: 70px;
+      margin-right: -25px;
+  }
+}
+@media (max-width:1199px){
+  .s3{
+      margin-top: 0px;
+      margin-right: -25px;
+  }
+  .s8{
+    margin-top: -45px;
+    margin-right: -25px;
+  }
+}
 .specialties_content_wrapper{
   position: relative;
 }
@@ -3784,14 +3806,6 @@ background-color: white;
    
 }
 
-@media screen  and (max-width:575px){
-  .about-second {
-    
-    height: 1200px;
-    width: 80%;
-    }
-   
-}
 
 @media screen and (max-width:484px) {
   .about-second {

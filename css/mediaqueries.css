@@ -18,13 +18,23 @@
         display: none;
     }
 } */
+@media screen and (min-width:1440px) {
+    .specialties_image img{
+        position: relative;
+        top:150px;
+    } 
+    .specials{
+        margin-bottom: 500px;
+        padding-left: 0px;
+    }
+}
 @media  (max-width: 1440px) and (min-width:1199px){
     .specialties_image img{
         position: relative;
         top: 150px;
     } 
     .specialties_content::after {
-        content: "\f058";
+       content: "\f058";
         height: 76px;
         width: 76px;
         background-color: #8871BF;
@@ -166,12 +176,26 @@
     .contact_map_section iframe{
         width: -webkit-fill-available;
     }
+    .specialties_content_wrapper .s3{
+        margin-top: 70px;
+        margin-right: -25px;
+    }
 }
 
+@media screen and(min-width:1200px) {
+    .s3{
+        margin-top: 270px;
+        margin-right: -25px;
+    }
+}
 @media   (max-width: 1199px ) and (min-width:991px){
+    .s3{
+        margin-top: -50px;
+        margin-right: 0px;
+    }
     .specialties_image {
       position: relative;
-      top: 180px;
+      top: 150px;
     }
     .main_header {
         padding: 30px 60px 0;
@@ -403,6 +427,7 @@
         right: -70px;
     }
     .specialties_content::after {
+        content: "\f058";
         height: 65px;
         width: 65px;
         font-size: 38px;
@@ -412,7 +437,7 @@
         padding-right: 45px;
     }
     .s3 {
-        padding-right: 45px;
+        padding-right: 10px;
     }
     .s4::after {
         right: -65px;
@@ -1357,6 +1382,7 @@
         top: 15px;
     }
     .specialties_content::after {
+        content: "\f058";
         height: 60px;
         width: 60px;
         font-size: 36px;
@@ -2176,6 +2202,7 @@
         padding-left: 42px;
     }
     .specialties_content::after {
+        content: "\f058";
         height: 55px;
         width: 55px;
         font-size: 32px;
@@ -2230,6 +2257,9 @@
         left: -22px;
     }
     .specialties_right_line {
+        display: none;
+    }
+    .specialties_image{
         display: none;
     }
     .our_specialties_section .our_specialties_right_shape {
@@ -2794,7 +2824,7 @@
     }
 }
 
- @media screen and (max-width: 575px){
+ @media screen and (max-width: 767px){
     .main_header {
         padding: 20px 15px 0;
     }
@@ -2902,6 +2932,7 @@
         margin-bottom: 22px;
         padding-left: 55px;
     }
+    
     .specialties_content .specialties_name {
         font-size: 14px;
         line-height: 20px;
@@ -2911,6 +2942,7 @@
         line-height: 18px;
     }
     .specialties_content::after {
+        content: "\f058";
         height: 45px;
         width: 45px;
         font-size: 26px;
