@@ -636,6 +636,7 @@ li {
   }
 }
 @media (max-width:1199px){
+  
   .s3{
       margin-top: 0px;
       margin-right: -25px;
@@ -708,10 +709,10 @@ li {
   top: 0;
   right: -78px;
 }
-.specialties_content2{
+.specialties_content{
   text-align: left;
 }
-.specialties_content2::after {
+.specialties_content::after {
   content: "\f058";
   height: 76px;
   width: 76px;
@@ -731,22 +732,81 @@ li {
   padding-top: 110px;
   padding-left: 24px;
 }
-.s6{
-  padding-left: 74px;
+@media screen and (max-width:767px) {
+  .specialties_content_wrapper
+  {
+    padding: 0px;
+  }
+  .s5{
+    margin-left: 80px;
+    padding-top: 0px;
+  }
+  .s6{
+    margin-left: 55px;
+  }
+  .s8{
+    margin-left: 83px;
+    margin-top: -30px;
+  }
+  .s1::after {
+    top: 0px;
+    left: -48px;
+     padding-top: 0px;
+  }
+  .s2::after {
+    left: -48px;
+  }
+  .s3::after {
+    left: -48px;
+  }
+  .s1{
+   
+    margin-left: 45px;
+    padding-top: 0px;
+  }
+  .s2{
+    margin-left: 45px;
+  }
+  .s3{
+    margin-left:45px;
+    
+  }
+  .s5::after {
+    top: 0px;
+    left: -78px;
+    padding-top: 0px;
+  }
+  .s6::after {
+    top: 0px;
+    left: -68px;
+  }
+  .s7::after {
+    top: 0;
+    left: -20px;
+  }
+  .s8::after {
+    top: 0;
+    left: -68px;
+  }
 }
+
+@media screen  and (min-width:767px){
+  .s5::after {
+    top: 110px;
+    left: -78px;
+  }
+}
+
 .s7{
   padding-left: 74px;
 }
 .s8{
   padding-left: 24px;
 }
-.s5::after {
-  top: 110px;
-  left: -78px;
-}
+
 .s6::after {
   top: 0px;
-  left: -30px;
+  left: -50px;
 }
 .s7::after {
   top: 0;
@@ -3806,6 +3866,14 @@ background-color: white;
    
 }
 
+@media screen  and (max-width:575px){
+  .about-second {
+    
+    height: 1200px;
+    width: 80%;
+    }
+   
+}
 
 @media screen and (max-width:484px) {
   .about-second {

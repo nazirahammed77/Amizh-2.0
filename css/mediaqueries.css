@@ -1096,6 +1096,17 @@
     }
 }
 
+@media (max-width:991px) and (min-width:767px){
+    .s8{
+        margin-top: 0px;
+       }
+       .s8::after{
+        margin-top: 0px;
+       }
+       .s6 p{
+        margin-left: 40px;
+       }
+}
 
 @media screen  and (max-width: 991px){
     .main_header {
@@ -2824,7 +2835,7 @@
     }
 }
 
- @media screen and (max-width: 767px){
+ @media screen and (max-width: 575px){
     .main_header {
         padding: 20px 15px 0;
     }
