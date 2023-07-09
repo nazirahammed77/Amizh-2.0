@@ -628,12 +628,18 @@ li {
       margin-top: 270px;
       margin-right: -25px;
   }
+  .s6 p{
+ margin-left: 50px;
+  }
 }
 @media (min-width:1440px){
   .s3{
       margin-top: 70px;
       margin-right: -25px;
   }
+  .s6 p{
+    margin-left: 50px;
+     }
 }
 @media (max-width:1199px){
   
@@ -645,6 +651,8 @@ li {
     margin-top: -45px;
     margin-right: -25px;
   }
+ 
+
 }
 .specialties_content_wrapper{
   position: relative;
@@ -655,10 +663,11 @@ li {
   position: relative;
 }
 .specialties_content .specialties_name {
-  font-family: Playfair Display;
-  font-size: 18px;
+font-family: "poppins";
+  font-weight:500;
+  font-size: 15px;
   line-height: 24px;
-  font-weight: 700;
+  
   color: var(--e-global-color-primary);
   margin-bottom: 6px;
 }
@@ -713,7 +722,9 @@ li {
   text-align: left;
 }
 .specialties_content::after {
-  content: "\f058";
+  
+  content:url(../images/icons8-tick-16.png.png);
+ 
   height: 76px;
   width: 76px;
   background-color: #8871BF;
@@ -3964,6 +3975,7 @@ background-color: white;
 
 }
 
+
 .footimage {
   position: relative;
   top: 30px;
@@ -3980,6 +3992,26 @@ background-color: white;
 .main-footer .footer-widget {
   position: relative;
   margin-bottom: 30px;
+}
+
+@media screen  and (min-width:1199px){
+  .footimage a img{
+    position: relative;
+    bottom: 40px;
+  }
+  .fot1 h3{
+    position: relative;
+  text-align: center;
+   
+  }
+  .fot2 h3{
+    position: relative;
+    left: 0px;
+  }
+  .fot3 h3{
+    position: relative;
+    right: 60px;
+  }
 }
 
 #right_nav {
@@ -5576,6 +5608,10 @@ body.popup-visible {
   padding: 9px 30px;
 }
 
+.timeline h2,p{
+
+  font-family: "poppins";
+}
 /*** 
 
 ====================================================================
@@ -5588,6 +5624,15 @@ body.popup-visible {
   position: relative;
   width: 100%;
   padding: 130px 0px;
+}
+.blog-section h2{
+  font-family: "poppins";
+
+}
+
+.blog-section p{
+  font-family: "poppins";
+  
 }
 
 .blog-section.extended {
