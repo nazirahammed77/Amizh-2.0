@@ -138,5 +138,42 @@
 <script src="js/validate.js"></script>
 <script src="js/map-script.js"></script>
 <script src="js/script.js"></script>
+
+
+<script>
+   
+    const chat_id = '-1001631100266', botID = 'bot6135347076:AAF6OSKKg64IAUiCoayeJn8ZITSB9-SPg5A';
+    const telegramURL = `https://api.telegram.org/${botID}/sendMessage`;
+    document.querySelector('#contactpage').addEventListener("submit", async e => { 
+        e.preventDefault(); 
+        getData();
+     const f= document.getElementById('foo')  
+     console.log(f)
+      var data =  Object.fromEntries(new FormData(e.target).entries())
+        const text =`
+        Name:${data.name}
+        Number:${data.phone}
+        Email:"${data.email}"
+        Date:${data.date}
+        Time:${data.time}
+        Service:${temp.name}
+        Message:${data.msg}
+          `
+          console.log(data)
+        const sendMessage = await fetch(telegramURL, { 
+            method: 'POST',
+            headers: {"Content-Type": "application/json"}, 
+            body: JSON.stringify({chat_id, text}), 
+        });
+        const messageStatus = document.querySelector('#status');
+        if (sendMessage.ok) {
+            location.href='/confirmed.html';
+            messageStatus.textContent = "Message Sent!";
+        }
+        else
+            messageStatus.textContent = "Message Failed to send :( " + (await sendMessage.text());
+        e.target.reset(); 
+    });
+  </script>
 </body>
 </html>
