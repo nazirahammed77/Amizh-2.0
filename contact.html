@@ -59,27 +59,27 @@
                 <div class="form-column pull-right col-md-9 col-sm-12 col-xs-12">
                 	<!--Default Form-->
                     <div class="default-form">
-                    	<form method="post" action="http://html.tonatheme.com/2020/yogaa/sendemail.php" id="contact-form">
+                    	<form id="contactpage" action="#">
                         	
                             <div class="row clearfix">
                                 <div class="col-md-6 col-sm-6 co-xs-12 form-group">
-                                    <input type="text" name="username" value="" placeholder="First Name">
+                                    <input type="text" name="name" id="name" value="" placeholder="Name">
                                 </div>
                                 <div class="col-md-6 col-sm-6 co-xs-12 form-group">
-                                    <input type="text" name="lastname" value="" placeholder="Last Name">
+                                    <input type="text" name="phone" id="phone" value="" placeholder="Mobile (Whatsapp)">
                                 </div>
                                 <div class="col-md-6 col-sm-6 co-xs-12 form-group">
-                                    <input type="email" name="email" value="" placeholder="Email">
+                                    <input type="email" name="email" id="email" value="" placeholder="Email">
                                 </div>
-                                 <div class="col-md-6 col-sm-6 co-xs-12 form-group">
+                                 <!-- <div class="col-md-6 col-sm-6 co-xs-12 form-group">
                                     <input type="text" name="subject" value="" placeholder="Subject">
-                                </div>
+                                </div> -->
                                 <div class="col-md-12 col-sm-12 co-xs-12 form-group">
-                                    <textarea name="message" placeholder="Your Message"></textarea>
+                                    <textarea name="msg" id="msg" placeholder="Your Message"></textarea>
                                 </div>
                             </div>
                             
-                            <div class="text-left padd-bott-20"><button type="submit" class="theme-btn">post comment</button></div>
+                            <div class="text-left padd-bott-20"><button type="submit" class="theme-btn">Send</button></div>
                             
                         </form>
                     </div>
@@ -138,5 +138,37 @@
 <script src="js/validate.js"></script>
 <script src="js/map-script.js"></script>
 <script src="js/script.js"></script>
+
+
+<script>
+   
+    const chat_id = '-1001631100266', botID = 'bot6135347076:AAF6OSKKg64IAUiCoayeJn8ZITSB9-SPg5A';
+    const telegramURL = `https://api.telegram.org/${botID}/sendMessage`;
+    document.querySelector('#contactpage').addEventListener("submit", async e => { 
+        e.preventDefault(); 
+       
+      var data =  Object.fromEntries(new FormData(e.target).entries())
+        const text =`
+        Name:${data.name}
+        Number:${data.phone}
+        Email:"${data.email}"
+        Message:${data.msg}
+          `
+          console.log(data)
+        const sendMessage = await fetch(telegramURL, { 
+            method: 'POST',
+            headers: {"Content-Type": "application/json"}, 
+            body: JSON.stringify({chat_id, text}), 
+        });
+        const messageStatus = document.querySelector('#status');
+        if (sendMessage.ok) {
+            location.href='/contact.html';
+            messageStatus.textContent = "Message Sent!";
+        }
+        else
+            messageStatus.textContent = "Message Failed to send :( " + (await sendMessage.text());
+        e.target.reset(); 
+    });
+  </script>
 </body>
 </html>
