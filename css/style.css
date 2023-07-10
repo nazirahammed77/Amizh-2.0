@@ -1697,6 +1697,8 @@ transition: all 0.4s cubic-bezier(0.12, 0, 0.38, 1) 0s;
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 10px;
+
+  font-family: 'Poppins';
 }
 
 .sec-title .styled-line {
