@@ -3586,7 +3586,7 @@ span.nmbr {
     border-style: solid;
     border-radius: 15px;
   padding: 50px;
-    height: 550px;
+    height: 610px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   
    
@@ -3632,7 +3632,7 @@ span.nmbr {
 @media  screen and (max-width:992px) {
   .about-second-follow{
     width: 90%;
-    height: 50%;
+    height: 1300px;
     border-width: 1px;
     border-style: solid;
     border-radius: 15px;
@@ -3671,7 +3671,7 @@ span.nmbr {
 @media  screen and (max-width:675px) {
   .about-second-follow{
     width: 90%;
-    height: 50%;
+    height: 1300px;
     border-width: 1px;
     border-style: solid;
     border-radius: 15px;
@@ -3699,7 +3699,7 @@ span.nmbr {
 @media  screen and (max-width:548px) {
   .about-second-follow{
     width: 90%;
-    height: 50%;
+    height: 1300px;
     border-width: 1px;
     border-style: solid;
     border-radius: 15px;
@@ -3727,7 +3727,7 @@ span.nmbr {
 @media  screen and (max-width:480px) {
   .about-second-follow{
     width: 90%;
-    height: 50%;
+    height: 1300px;
     border-width: 1px;
     border-style: solid;
     border-radius: 15px;
